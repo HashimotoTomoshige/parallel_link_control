@@ -1,0 +1,7 @@
+<launch>
+  <group ns="probe_control">
+    <node pkg="parallel_link_control" name="parallel_link_control" type="parallel_link_control" output="screen">
+    <!-- <remap from="/probe_control/chest_angle" to="/robot_control/chest_angle" /> -->
+    </node>
+  </group>
+</launch>
